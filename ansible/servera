@@ -1,0 +1,2 @@
+[servera]
+192.168.1.83 ansible_user=servera

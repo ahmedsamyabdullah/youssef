@@ -1,0 +1,13 @@
+- name: Create two files on remote hosts
+  hosts: all
+  become: no  # Run as sudo (if needed)
+  tasks:
+    - name: Create file1.txt
+      file:
+        path: ~/Desktop/file1.txt
+        state: touch
+
+    - name: Create file2.txt
+      file:
+        path: ~/Desktop/file2.txt
+        state: touch
