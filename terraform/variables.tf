@@ -14,3 +14,7 @@ variable "private_subnet_cidr" {
   type = string
   
 }
+
+variable "public_cidr" {
+  type = string
+}
