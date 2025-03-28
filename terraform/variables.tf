@@ -18,3 +18,10 @@ variable "private_subnet_cidr" {
 variable "public_cidr" {
   type = string
 }
+
+variable "instance_type" {
+  type = string
+}
+variable "key_name" {
+  type = string
+}
